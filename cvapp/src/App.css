@@ -1,0 +1,43 @@
+.App {
+  display: flex;
+  padding: 40px;
+  gap: 40px;
+  height: 100vh;
+  background-color: rgb(139, 135, 135);
+}
+
+.reset-btn {
+  appearance: none;
+  outline: none;
+  border: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background-color: tomato;
+  border-radius: 0;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+}
+
+#text-area,
+.text-display {
+  height: 100%;
+  width: 100%;
+}
+
+#text-area {
+  border: 1px solid gray;
+  resize: none;
+}
+
+.text-display {
+  background-color: cadetblue;
+  color: white;
+}
+
