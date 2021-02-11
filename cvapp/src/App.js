@@ -17,7 +17,6 @@ function App () {
       <ResetButton reset={() => setDisplayText("")}/>
       <div className="container">
         <LeftFields />
-        <TextArea display={displayText} changeText={(event) => setDisplayText(event.target.value)}/>
         <TextDisplay display={displayText}/>
       </div>
     </div>
@@ -25,3 +24,7 @@ function App () {
 }
 
 export default App;
+
+/* TextArea component
+<TextArea display={displayText} changeText={(event) => setDisplayText(event.target.value)}/>
+*/
