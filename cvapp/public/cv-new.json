@@ -1,0 +1,113 @@
+{
+  "cv": [
+    {
+      "name": "Personal details", // This goes to label
+      "id": "pers",
+      "inside": [
+        {
+          "name": "Your Name",
+          "id": "name",
+          "placeholder": "Your name",
+          "type": "shorttext",
+          "required": "true"
+        }
+      ]
+    },
+    {
+      "name": "Work experiences",
+      "id": "work",
+      "inside": [
+        {
+          "name": "Your Work Experience",
+          "id": "workexp1",
+          "placeholder": "Your work experience",
+          "type": "longtext"
+        }
+      ]
+    },
+    {
+      "name": "Volunteer work",
+      "id": "volunteer",
+      "inside": [
+        {
+          "name": "Your Volunteer Work Experience",
+          "id": "volunt1",
+          "placeholder": "Your work experience",
+          "type": "shorttext"
+        }
+      ]
+    },
+    {
+      "name": "Education",
+      "id": "edu",
+      "inside": [
+        {
+          "name": "Education",
+          "id": "edu1",
+          "placeholder": "Education",
+          "type": "longtext"
+        }
+      ]
+    },
+    {
+      "name": "Awards",
+      "id": "awards",
+      "inside": [
+        {
+          "name": "Your Awards",
+          "id": "award",
+          "placeholder": "Your awards",
+          "type": "shorttext"
+        }
+      ]
+    },
+    {
+      "name": "Publications",
+      "id": "pubs",
+      "inside": [
+        {
+          "name": "Your Publications",
+          "id": "pub",
+          "placeholder": "List Your publications",
+          "type": "shorttext"
+        }
+      ]
+    },
+    {
+      "name": "Skills",
+      "id": "skills",
+      "inside": [
+        {
+          "name": "Your Skills",
+          "id": "skill",
+          "placeholder": "Your skills",
+          "type": "shorttext"
+        }
+      ]
+    },
+    {
+      "name": "Languages", // dropdown
+      "id": "langs",
+      "inside": [
+        {
+          "name": "Language",
+          "id": "lang",
+          "placeholder": "List your languages",
+          "type": "dropdown"
+        }
+      ]
+    },
+    {
+      "name": "Interests",
+      "id": "interest",
+      "inside": [
+        {
+          "name": "Your Interest",
+          "id": "int1",
+          "placeholder": "Your interests",
+          "type": "shorttext"
+        }
+      ]
+    }         
+  ]
+}
